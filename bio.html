@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+    <link rel="stylesheet" href="bio.css">
+</head>
+<body>
+    <header>
+        <h1>Samanthula Sai Naga Alekhya</h1>
+        <nav>
+          <ul>
+            <li><a href="#bio">Bio</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#contact">My Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    
+      <section id="bio">
+        <h2>Bio</h2>
+        <img style="width: 100px; height: 150px; display: block;
+        margin-left: auto;
+        margin-right: auto; border-radius: 50%;" src="https://media.licdn.com/dms/image/D5603AQHn4sMCYDpHZA/profile-displayphoto-shrink_800_800/0/1717340380038?e=1723075200&v=beta&t=Nk1B3pVVvmiubDZPjW1knXS-3SpBL9D7GGVUDFHY0fw" alt="Your Photo">
+        <p>I'm Samanthula Alekhya, currently a final year undergraduate student in the discipline of Information Technology at Gudlavalleru Engineering College who is seeking a challenging role in a dynamic IT environment to apply my skills, to make meaningful contributions to the
+            organization’s success and further enhance my expertise in a fast-paced professional environment.</p>
+      </section>
+    
+      <section id="hobbies">
+        <h2>Hobbies</h2>
+        <ul>
+          <li>Upskilling</li>
+          <li>Learning new technologies</li>
+          <li>Playing Chess</li>
+        </ul>
+      </section>
+    
+      <section id="contact">
+        <h2>My Contact</h2>
+        <p>Samanthula Sai Naga Alekhya<br>samanthulsainagaalekhya@gmail.com</p>
+      </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact">
+        <h2>Send Message</h2>
+        <form action="msg.html" id="contactForm">
+            <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name"><br>
+  <span id="nameError" class="error"></span><br>
+  
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email"><br>
+  <span id="emailError" class="error"></span><br>
+  
+  <label for="message">Message:</label><br>
+  <textarea id="message" name="message"></textarea><br><br>
+  
+  <button type="submit">Submit</button>
+</form>
+        <div id="confirmation"></div>
+    </section>
+<script src="bio.js"></script> 
+</body>
+</html>
